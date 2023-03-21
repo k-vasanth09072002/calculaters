@@ -55,10 +55,10 @@ function number(i){
         case '.': x.value+='.';
         break;
 
-        case 'a':x.value='';
+        case 'AC':x.value=" ";
         break;
 
-        case 'equal':
+        case '=':
             result=eval(x.value);
             x.value=result;
         break;
